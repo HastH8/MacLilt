@@ -105,7 +105,3 @@ macOS already supports copying a screenshot to the clipboard with Control added 
 ## Reference review
 
 The supplied 55.98-second MP4 was inspected at seven points. Its useful qualities—centered hierarchy, a stable rounded window, restrained violet ambience, feature demonstrations, and paced progression—were translated into an original MacEase flow. The later UI screenshots were used to correct switcher-card clipping, feature-control alignment, window persistence, and Settings theme consistency.
-
-## License
-
-No open-source license has been selected. Choose a license before preparing a public release.

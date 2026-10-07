@@ -1,0 +1,24 @@
+{
+     "configurations": [
+          {
+               "type": "swift",
+               "request": "launch",
+               "args": [],
+               "cwd": "${workspaceFolder:MacLilt}",
+               "name": "Debug MacEase",
+               "target": "MacEase",
+               "configuration": "debug",
+               "preLaunchTask": "swift: Build Debug MacEase"
+          },
+          {
+               "type": "swift",
+               "request": "launch",
+               "args": [],
+               "cwd": "${workspaceFolder:MacLilt}",
+               "name": "Release MacEase",
+               "target": "MacEase",
+               "configuration": "release",
+               "preLaunchTask": "swift: Build Release MacEase"
+          }
+     ]
+}

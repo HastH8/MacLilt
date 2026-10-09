@@ -70,12 +70,6 @@ swift test
 - VoiceOver reading order
 - Screenshot, window Accessibility, global input-monitoring, Finder Automation, and multi-display behavior across third-party apps
 
-### Release work not falsely claimed complete
-
-- Sparkle integration requires a real signed release feed and update-signing key.
-- Performance profiling requires Instruments measurements on release hardware.
-- Developer ID signing, notarization, and Gatekeeper testing require release credentials.
-
 ### Unsupported
 
 - Changing the window level of arbitrary third-party windows. Public Accessibility APIs do not provide a reliable true always-on-top operation, so MacEase will not fake it by repeatedly raising windows.
@@ -101,7 +95,3 @@ macOS already supports copying a screenshot to the clipboard with Control added 
 - Apple’s [AXUIElement documentation](https://developer.apple.com/documentation/applicationservices/axuielement_h) defines the public Accessibility boundary and its failure modes.
 - Apple documents [`SMAppService.mainApp`](https://developer.apple.com/documentation/servicemanagement/smappservice/mainapp) for launch-at-login registration.
 - Apple’s [materials guidance](https://developer.apple.com/design/human-interface-guidelines/materials) recommends using Liquid Glass sparingly for controls/navigation while retaining standard materials in the content layer.
-
-## Reference review
-
-The supplied 55.98-second MP4 was inspected at seven points. Its useful qualities—centered hierarchy, a stable rounded window, restrained violet ambience, feature demonstrations, and paced progression—were translated into an original MacEase flow. The later UI screenshots were used to correct switcher-card clipping, feature-control alignment, window persistence, and Settings theme consistency.
